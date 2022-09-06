@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
