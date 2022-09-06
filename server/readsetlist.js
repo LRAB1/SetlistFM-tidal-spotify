@@ -2,6 +2,8 @@
 const fs = require('fs');
 const { stringify } = require('querystring');
 
+const songs = [];
+
 fs.readFile('./data/setlist-local.json', (err, setlist) => {
     if (err) throw err;
     let localsetlist = JSON.parse(setlist);
@@ -20,9 +22,14 @@ fs.readFile('./data/setlist-local.json', (err, setlist) => {
     let songs = JSON.stringify(localsetlist.sets.set);
     console.log(songs);
 
+    //Create setlist.txt
+    //fs.writeFileSync('./data/setlist.txt', songs)
+
     //create file with artist name.
     //fs.writeFileSync('./data/artist.txt', artist);
 
     //create file with tour name.
     //fs.writeFileSync('./data/tourname.txt', tour);
+
+    //TODO: create a file with all three paramaters.
 });
