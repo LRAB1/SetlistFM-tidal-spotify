@@ -1,15 +1,28 @@
 'use strict';
-const { on } = require('events');
 const fs = require('fs');
-
-const songs = [];
+const { stringify } = require('querystring');
 
 fs.readFile('./data/setlist-local.json', (err, setlist) => {
     if (err) throw err;
     let localsetlist = JSON.parse(setlist);
-    //hier iets doen met parsed info
-    //console.log(localsetlist);
+    
     console.log('Finished reading file.');
-    console.log(localsetlist.artist.name);
-    console.log(localsetlist.sets.set.song/*.name*/)
+
+    //Artist name gets pulled in json format.
+    let artist = localsetlist.artist.name
+    console.log(artist);
+
+    //Grabbing tour name for playlist naming
+    let tour = localsetlist.tour.name
+    console.log(tour);
+
+    //Trying to extract song names. Runs into name being undefined error.
+    let songs = JSON.stringify(localsetlist.sets.set);
+    console.log(songs);
+
+    //create file with artist name.
+    //fs.writeFileSync('./data/artist.txt', artist);
+
+    //create file with tour name.
+    //fs.writeFileSync('./data/tourname.txt', tour);
 });
