@@ -1,11 +1,10 @@
 'use strict';
-
+const { on } = require('events');
 const fs = require('fs');
 
-fs.readFile('setlist-local.json', (err, data) => {
+fs.readFile('./data/setlist-local.json', (err, data) => {
     if (err) throw err;
-    let setlist = JSON.parse(data);
-    console.log(setlist);
-})
-
-console.log('Finished loading file.');
+    let localsetlist = JSON.parse(data);
+    //console.log(localsetlist);
+    console.log('Finished reading file.');
+});
