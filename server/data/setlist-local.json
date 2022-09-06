@@ -1,1 +1,89 @@
-"{\n   \"id\" : \"3bb0fc9c\",\n   \"versionId\" : \"g3bfc74a8\",\n   \"eventDate\" : \"03-09-2022\",\n   \"lastUpdated\" : \"2022-09-05T15:48:33.000+0000\",\n   \"artist\" : {\n      \"mbid\" : \"484a4e90-6899-4e4b-a948-a2255d365340\",\n      \"name\" : \"AURORA\",\n      \"sortName\" : \"AURORA\",\n      \"disambiguation\" : \"Norwegian singer–songwriter & producer\",\n      \"url\" : \"https://www.setlist.fm/setlists/aurora-23c6eca3.html\"\n   },\n   \"venue\" : {\n      \"id\" : \"6bd26236\",\n      \"name\" : \"Paradiso Grote Zaal\",\n      \"city\" : {\n         \"id\" : \"2759794\",\n         \"name\" : \"Amsterdam\",\n         \"state\" : \"North Holland\",\n         \"stateCode\" : \"07\",\n         \"coords\" : {\n            \"lat\" : 52.373,\n            \"long\" : 4.9\n         },\n         \"country\" : {\n            \"code\" : \"NL\",\n            \"name\" : \"Netherlands\"\n         }\n      },\n      \"url\" : \"https://www.setlist.fm/venue/paradiso-grote-zaal-amsterdam-netherlands-6bd26236.html\"\n   },\n   \"tour\" : {\n      \"name\" : \"The Gods We Can Touch Tour\"\n   },\n   \"sets\" : {\n      \"set\" : [ {\n         \"song\" : [ {\n            \"name\" : \"Murder Song (5, 4, 3, 2, 1)\"\n         }, {\n            \"name\" : \"Heathens\"\n         }, {\n            \"name\" : \"Everything Matters\"\n         }, {\n            \"name\" : \"Churchyard\"\n         }, {\n            \"name\" : \"A Temporary High\"\n         }, {\n            \"name\" : \"The River\"\n         }, {\n            \"name\" : \"Daydreamer\"\n         }, {\n            \"name\" : \"Infections of a Different Kind\"\n         }, {\n            \"name\" : \"A Different Kind of Human\"\n         }, {\n            \"name\" : \"Blood in the Wine\"\n         }, {\n            \"name\" : \"Runaway\"\n         }, {\n            \"name\" : \"Warrior\"\n         }, {\n            \"name\" : \"Cure for Me\"\n         }, {\n            \"name\" : \"Queendom\"\n         }, {\n            \"name\" : \"Running With the Wolves\"\n         }, {\n            \"name\" : \"Giving In to the Love\"\n         } ]\n      }, {\n         \"encore\" : 1,\n         \"song\" : [ {\n            \"name\" : \"All Is Soft Inside\",\n            \"info\" : \"A capella\"\n         }, {\n            \"name\" : \"The Innocent\",\n            \"info\" : \"A capella\"\n         }, {\n            \"name\" : \"Apple Tree\"\n         }, {\n            \"name\" : \"The Seed\"\n         }, {\n            \"name\" : \"Exist for Love\"\n         } ]\n      } ]\n   },\n   \"info\" : \"was a bit drunk and euphoric, setlist order definitely doesn't match 100%\",\n   \"url\" : \"https://www.setlist.fm/setlist/aurora/2022/paradiso-grote-zaal-amsterdam-netherlands-3bb0fc9c.html\"\n}"
+{
+   "id" : "3bb0fc9c",
+   "versionId" : "g3bfc74a8",
+   "eventDate" : "03-09-2022",
+   "lastUpdated" : "2022-09-05T15:48:33.000+0000",
+   "artist" : {
+      "mbid" : "484a4e90-6899-4e4b-a948-a2255d365340",
+      "name" : "AURORA",
+      "sortName" : "AURORA",
+      "disambiguation" : "Norwegian singer–songwriter & producer",
+      "url" : "https://www.setlist.fm/setlists/aurora-23c6eca3.html"
+   },
+   "venue" : {
+      "id" : "6bd26236",
+      "name" : "Paradiso Grote Zaal",
+      "city" : {
+         "id" : "2759794",
+         "name" : "Amsterdam",
+         "state" : "North Holland",
+         "stateCode" : "07",
+         "coords" : {
+            "lat" : 52.373,
+            "long" : 4.9
+         },
+         "country" : {
+            "code" : "NL",
+            "name" : "Netherlands"
+         }
+      },
+      "url" : "https://www.setlist.fm/venue/paradiso-grote-zaal-amsterdam-netherlands-6bd26236.html"
+   },
+   "tour" : {
+      "name" : "The Gods We Can Touch Tour"
+   },
+   "sets" : {
+      "set" : [ {
+         "song" : [ {
+            "name" : "Murder Song (5, 4, 3, 2, 1)"
+         }, {
+            "name" : "Heathens"
+         }, {
+            "name" : "Everything Matters"
+         }, {
+            "name" : "Churchyard"
+         }, {
+            "name" : "A Temporary High"
+         }, {
+            "name" : "The River"
+         }, {
+            "name" : "Daydreamer"
+         }, {
+            "name" : "Infections of a Different Kind"
+         }, {
+            "name" : "A Different Kind of Human"
+         }, {
+            "name" : "Blood in the Wine"
+         }, {
+            "name" : "Runaway"
+         }, {
+            "name" : "Warrior"
+         }, {
+            "name" : "Cure for Me"
+         }, {
+            "name" : "Queendom"
+         }, {
+            "name" : "Running With the Wolves"
+         }, {
+            "name" : "Giving In to the Love"
+         } ]
+      }, {
+         "encore" : 1,
+         "song" : [ {
+            "name" : "All Is Soft Inside",
+            "info" : "A capella"
+         }, {
+            "name" : "The Innocent",
+            "info" : "A capella"
+         }, {
+            "name" : "Apple Tree"
+         }, {
+            "name" : "The Seed"
+         }, {
+            "name" : "Exist for Love"
+         } ]
+      } ]
+   },
+   "info" : "was a bit drunk and euphoric, setlist order definitely doesn't match 100%",
+   "url" : "https://www.setlist.fm/setlist/aurora/2022/paradiso-grote-zaal-amsterdam-netherlands-3bb0fc9c.html"
+}
