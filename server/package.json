@@ -1,20 +1,23 @@
 {
-  "name": "server",
+  "name": "setlistfm-tidal-spotify",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "To create playlists by provided setlist ID to either Spotify or Tidal",
+  "main": "request.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRAB1/SetlistFM-tidal-spotify.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
+  "bugs": {
+    "url": "https://github.com/LRAB1/SetlistFM-tidal-spotify/issues"
   },
+  "homepage": "https://github.com/LRAB1/SetlistFM-tidal-spotify#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "morgan": "^1.10.0"
+    "unirest": "^0.6.0"
   }
 }
