@@ -1,0 +1,3 @@
+AURORA
+The Gods We Can Touch Tour
+[{"song":[{"name":"Murder Song (5, 4, 3, 2, 1)"},{"name":"Heathens"},{"name":"Everything Matters"},{"name":"Churchyard"},{"name":"A Temporary High"},{"name":"The River"},{"name":"Daydreamer"},{"name":"Infections of a Different Kind"},{"name":"A Different Kind of Human"},{"name":"Blood in the Wine"},{"name":"Runaway"},{"name":"Warrior"},{"name":"Cure for Me"},{"name":"Queendom"},{"name":"Running With the Wolves"},{"name":"Giving In to the Love"}]},{"encore":1,"song":[{"name":"All Is Soft Inside","info":"A capella"},{"name":"The Innocent","info":"A capella"},{"name":"Apple Tree"},{"name":"The Seed"},{"name":"Exist for Love"}]}]

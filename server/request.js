@@ -16,7 +16,7 @@ var req = unirest('GET', urlWithoutId + iD)
     if (res.error) throw new Error(res.error); 
     console.log(res.raw_body);
     let data = res.raw_body;
-    fs.writeFileSync('./data/setlist-local.json', data);
+    fs.writeFileSync('./data/raw-setlist.json', data);
     console.log(`Data written to file!`)
   });
 

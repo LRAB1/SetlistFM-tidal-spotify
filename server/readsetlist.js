@@ -4,7 +4,7 @@ const { stringify } = require('querystring');
 
 const songs = [];
 
-fs.readFile('./data/setlist-local.json', (err, setlist) => {
+fs.readFile('./data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
     let localsetlist = JSON.parse(setlist);
     
@@ -19,17 +19,9 @@ fs.readFile('./data/setlist-local.json', (err, setlist) => {
     console.log(tour);
 
     //Trying to extract song names. Runs into name being undefined error.
-    let songs = JSON.stringify(localsetlist.sets.set);
+    let songs = JSON.stringify(localsetlist.sets.set/*.song.name*/);
     console.log(songs);
 
-    //Create setlist.txt
-    //fs.writeFileSync('./data/setlist.txt', songs)
-
-    //create file with artist name.
-    //fs.writeFileSync('./data/artist.txt', artist);
-
-    //create file with tour name.
-    //fs.writeFileSync('./data/tourname.txt', tour);
-
-    //TODO: create a file with all three paramaters.
+    //Create setlist.txt, containing artis, tourname and songlist(json unfortunately).
+    fs.writeFileSync('./data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + songs);
 });
