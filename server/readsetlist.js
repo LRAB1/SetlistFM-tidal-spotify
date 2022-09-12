@@ -14,20 +14,19 @@ fs.readFile('./data/raw-setlist.json', (err, setlist) => {
     const tour = localsetlist.tour.name
     //console.log(tour);
 
-    //Check how many set arrays exist.
-    //const amountSets = songsandEncore
+    //Check how many set arrays exist and therefore if an encore was performed.
     const amountSets = [];
+    amountSets.push(localsetlist.sets.set.length);
     console.log('amount of sets', amountSets);
-    if (localsetlist.sets.set.length > 1) {
-        console.log('An encore was played');
-        amountSets.push(localsetlist.sets.set.length)
-    } else console.log('No encore was played');
-        amountSets.push(localsetlist.sets.set.length);
 
     //Grabbing songs and names.
     //TODO make smart; needs to use data from amountSets to itterate through the sets and return all songs
-    const songs = localsetlist.sets.set[0].song;
+    //const songs = [localsetlist.sets.set[0].song , localsetlist.sets.set[1].song]; returns sets manually added.
+    const songs = [];
+    if (amountSets.length !== 0 ) {
+        //make smort
+    } else songs.push(localsetlist.sets.set.song.name) //not sure this works
 
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
-    fs.writeFileSync('./data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs) + "\r\n"/* + JSON.stringify(encores) */);    
+    fs.writeFileSync('./data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));    
 });
