@@ -2,7 +2,7 @@ const fs = require('fs');
 
 var unirest = require('unirest');
 
-//const urlWithId = "https://api.setlist.fm/rest/1.0/setlist/4bb7d3c2";
+//const urlWithId = "https://api.setlist.fm/rest/1.0/setlist/4bb7d3c2"; //Aurora set 3bb0fc9c
 const urlWithoutId = "https://api.setlist.fm/rest/1.0/setlist/";
 const iD = '3bb0fc9c';
 
