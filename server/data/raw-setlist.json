@@ -1,8 +1,8 @@
 {
    "id" : "3bb0fc9c",
-   "versionId" : "g3bfc74a8",
+   "versionId" : "g4bfdfbae",
    "eventDate" : "03-09-2022",
-   "lastUpdated" : "2022-09-05T15:48:33.000+0000",
+   "lastUpdated" : "2022-09-10T14:32:05.000+0000",
    "artist" : {
       "mbid" : "484a4e90-6899-4e4b-a948-a2255d365340",
       "name" : "AURORA",
@@ -39,31 +39,29 @@
          }, {
             "name" : "Heathens"
          }, {
+            "name" : "Blood in the Wine"
+         }, {
             "name" : "Everything Matters"
          }, {
             "name" : "Churchyard"
          }, {
-            "name" : "A Temporary High"
-         }, {
-            "name" : "The River"
+            "name" : "Warrior"
          }, {
             "name" : "Daydreamer"
          }, {
+            "name" : "The River"
+         }, {
             "name" : "Infections of a Different Kind"
          }, {
-            "name" : "A Different Kind of Human"
-         }, {
-            "name" : "Blood in the Wine"
+            "name" : "A Dangerous Thing"
          }, {
             "name" : "Runaway"
          }, {
-            "name" : "Warrior"
-         }, {
             "name" : "Cure for Me"
          }, {
-            "name" : "Queendom"
+            "name" : "The Seed"
          }, {
-            "name" : "Running With the Wolves"
+            "name" : "Running with the Wolves"
          }, {
             "name" : "Giving In to the Love"
          } ]
@@ -71,19 +69,18 @@
          "encore" : 1,
          "song" : [ {
             "name" : "All Is Soft Inside",
-            "info" : "A capella"
+            "info" : "acoustic snippet"
          }, {
             "name" : "The Innocent",
-            "info" : "A capella"
+            "info" : "acoustic snippet"
          }, {
-            "name" : "Apple Tree"
+            "name" : "Apple Tree",
+            "info" : "acoustic snippet"
          }, {
-            "name" : "The Seed"
-         }, {
-            "name" : "Exist for Love"
+            "name" : "Exist for Love",
+            "info" : "acoustic"
          } ]
       } ]
    },
-   "info" : "was a bit drunk and euphoric, setlist order definitely doesn't match 100%",
    "url" : "https://www.setlist.fm/setlist/aurora/2022/paradiso-grote-zaal-amsterdam-netherlands-3bb0fc9c.html"
 }
