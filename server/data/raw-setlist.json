@@ -1,103 +1,86 @@
 {
-   "id" : "3d69d57",
-   "versionId" : "b2ca5ea",
-   "eventDate" : "13-08-2003",
-   "lastUpdated" : "2020-10-27T22:14:09.000+0000",
+   "id" : "3bb0fc9c",
+   "versionId" : "g4bfdfbae",
+   "eventDate" : "03-09-2022",
+   "lastUpdated" : "2022-09-10T14:32:05.000+0000",
    "artist" : {
-      "mbid" : "b071f9fa-14b0-4217-8e97-eb41da73f598",
-      "name" : "The Rolling Stones",
-      "sortName" : "Rolling Stones, The",
-      "disambiguation" : "",
-      "url" : "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
+      "mbid" : "484a4e90-6899-4e4b-a948-a2255d365340",
+      "name" : "AURORA",
+      "sortName" : "AURORA",
+      "disambiguation" : "Norwegian singer–songwriter & producer",
+      "url" : "https://www.setlist.fm/setlists/aurora-23c6eca3.html"
    },
    "venue" : {
-      "id" : "13d665a5",
-      "name" : "Feijenoord Stadion",
+      "id" : "6bd26236",
+      "name" : "Paradiso Grote Zaal",
       "city" : {
-         "id" : "2747891",
-         "name" : "Rotterdam",
-         "state" : "South Holland",
-         "stateCode" : "11",
+         "id" : "2759794",
+         "name" : "Amsterdam",
+         "state" : "North Holland",
+         "stateCode" : "07",
          "coords" : {
-            "lat" : 51.9225,
-            "long" : 4.479167
+            "lat" : 52.373,
+            "long" : 4.9
          },
          "country" : {
             "code" : "NL",
             "name" : "Netherlands"
          }
       },
-      "url" : "https://www.setlist.fm/venue/feijenoord-stadion-rotterdam-netherlands-13d665a5.html"
+      "url" : "https://www.setlist.fm/venue/paradiso-grote-zaal-amsterdam-netherlands-6bd26236.html"
    },
    "tour" : {
-      "name" : "Licks World Tour"
+      "name" : "The Gods We Can Touch Tour"
    },
    "sets" : {
       "set" : [ {
          "song" : [ {
-            "name" : "Brown Sugar"
+            "name" : "Murder Song (5, 4, 3, 2, 1)"
          }, {
-            "name" : "You Got Me Rocking"
+            "name" : "Heathens"
          }, {
-            "name" : "It's Only Rock 'n' Roll (but I Like It)"
+            "name" : "Blood in the Wine"
          }, {
-            "name" : "Don't Stop"
+            "name" : "Everything Matters"
          }, {
-            "name" : "Angie"
+            "name" : "Churchyard"
          }, {
-            "name" : "You Can't Always Get What You Want"
+            "name" : "Warrior"
          }, {
-            "name" : "Midnight Rambler"
+            "name" : "Daydreamer"
          }, {
-            "name" : "Tumbling Dice"
+            "name" : "The River"
          }, {
-            "name" : "The Nearness of You",
-            "cover" : {
-               "mbid" : "87a93208-7517-4581-813c-6f0ecb0f5555",
-               "name" : "Chick Bullock and His Orchestra",
-               "sortName" : "Bullock, Chick and His Orchestra",
-               "disambiguation" : "",
-               "url" : "https://www.setlist.fm/setlists/chick-bullock-and-his-orchestra-4bdff78e.html"
-            },
-            "info" : "Keith Richards on lead vocals"
+            "name" : "Infections of a Different Kind"
          }, {
-            "name" : "Before They Make Me Run",
-            "info" : "Keith Richards on lead vocals"
+            "name" : "A Dangerous Thing"
          }, {
-            "name" : "Sympathy for the Devil"
-         } ]
-      }, {
-         "name" : "B-Stage",
-         "song" : [ {
-            "name" : "Neighbours"
+            "name" : "Runaway"
          }, {
-            "name" : "Mannish Boy",
-            "cover" : {
-               "mbid" : "f86f1f07-d182-45ce-ae93-ef610880ca72",
-               "name" : "Muddy Waters",
-               "sortName" : "Muddy Waters",
-               "disambiguation" : "blues musician",
-               "url" : "https://www.setlist.fm/setlists/muddy-waters-3bd69810.html"
-            }
+            "name" : "Cure for Me"
          }, {
-            "name" : "Street Fighting Man"
-         } ]
-      }, {
-         "song" : [ {
-            "name" : "Gimme Shelter"
+            "name" : "The Seed"
          }, {
-            "name" : "Honky Tonk Women"
+            "name" : "Running with the Wolves"
          }, {
-            "name" : "Start Me Up"
-         }, {
-            "name" : "(I Can't Get No) Satisfaction"
+            "name" : "Giving In to the Love"
          } ]
       }, {
          "encore" : 1,
          "song" : [ {
-            "name" : "Jumpin' Jack Flash"
+            "name" : "All Is Soft Inside",
+            "info" : "acoustic snippet"
+         }, {
+            "name" : "The Innocent",
+            "info" : "acoustic snippet"
+         }, {
+            "name" : "Apple Tree",
+            "info" : "acoustic snippet"
+         }, {
+            "name" : "Exist for Love",
+            "info" : "acoustic"
          } ]
       } ]
    },
-   "url" : "https://www.setlist.fm/setlist/the-rolling-stones/2003/feijenoord-stadion-rotterdam-netherlands-3d69d57.html"
+   "url" : "https://www.setlist.fm/setlist/aurora/2022/paradiso-grote-zaal-amsterdam-netherlands-3bb0fc9c.html"
 }
