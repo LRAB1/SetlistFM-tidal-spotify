@@ -1,86 +1,36 @@
 {
-   "id" : "3bb0fc9c",
-   "versionId" : "g4bfdfbae",
-   "eventDate" : "03-09-2022",
-   "lastUpdated" : "2022-09-10T14:32:05.000+0000",
+   "id" : "63b2aa3f",
+   "versionId" : "g23f3bc6b",
+   "eventDate" : "15-07-2022",
+   "lastUpdated" : "2022-07-14T17:30:39.000+0000",
    "artist" : {
-      "mbid" : "484a4e90-6899-4e4b-a948-a2255d365340",
-      "name" : "AURORA",
-      "sortName" : "AURORA",
-      "disambiguation" : "Norwegian singer–songwriter & producer",
-      "url" : "https://www.setlist.fm/setlists/aurora-23c6eca3.html"
+      "mbid" : "35dac7d2-0b1f-470f-9a5a-c53c8821f6d6",
+      "name" : "Eric Prydz",
+      "sortName" : "Prydz, Eric",
+      "disambiguation" : "",
+      "url" : "https://www.setlist.fm/setlists/eric-prydz-43d69b73.html"
    },
    "venue" : {
-      "id" : "6bd26236",
-      "name" : "Paradiso Grote Zaal",
+      "id" : "1bd6d97c",
+      "name" : "De Schorre",
       "city" : {
-         "id" : "2759794",
-         "name" : "Amsterdam",
-         "state" : "North Holland",
-         "stateCode" : "07",
+         "id" : "cu:ab304942-1abe-4c57-b96f-13c1265e0fbe",
+         "name" : "Boom",
+         "state" : "Antwerp",
+         "stateCode" : "BE.AN",
          "coords" : {
-            "lat" : 52.373,
-            "long" : 4.9
+            "lat" : 51.083333,
+            "long" : 4.366667
          },
          "country" : {
-            "code" : "NL",
-            "name" : "Netherlands"
+            "code" : "BE",
+            "name" : "Belgium"
          }
       },
-      "url" : "https://www.setlist.fm/venue/paradiso-grote-zaal-amsterdam-netherlands-6bd26236.html"
-   },
-   "tour" : {
-      "name" : "The Gods We Can Touch Tour"
+      "url" : "https://www.setlist.fm/venue/de-schorre-boom-belgium-1bd6d97c.html"
    },
    "sets" : {
-      "set" : [ {
-         "song" : [ {
-            "name" : "Murder Song (5, 4, 3, 2, 1)"
-         }, {
-            "name" : "Heathens"
-         }, {
-            "name" : "Blood in the Wine"
-         }, {
-            "name" : "Everything Matters"
-         }, {
-            "name" : "Churchyard"
-         }, {
-            "name" : "Warrior"
-         }, {
-            "name" : "Daydreamer"
-         }, {
-            "name" : "The River"
-         }, {
-            "name" : "Infections of a Different Kind"
-         }, {
-            "name" : "A Dangerous Thing"
-         }, {
-            "name" : "Runaway"
-         }, {
-            "name" : "Cure for Me"
-         }, {
-            "name" : "The Seed"
-         }, {
-            "name" : "Running with the Wolves"
-         }, {
-            "name" : "Giving In to the Love"
-         } ]
-      }, {
-         "encore" : 1,
-         "song" : [ {
-            "name" : "All Is Soft Inside",
-            "info" : "acoustic snippet"
-         }, {
-            "name" : "The Innocent",
-            "info" : "acoustic snippet"
-         }, {
-            "name" : "Apple Tree",
-            "info" : "acoustic snippet"
-         }, {
-            "name" : "Exist for Love",
-            "info" : "acoustic"
-         } ]
-      } ]
+      "set" : [ ]
    },
-   "url" : "https://www.setlist.fm/setlist/aurora/2022/paradiso-grote-zaal-amsterdam-netherlands-3bb0fc9c.html"
+   "url" : "https://www.setlist.fm/setlist/eric-prydz/2022/de-schorre-boom-belgium-63b2aa3f.html"
 }
