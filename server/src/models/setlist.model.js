@@ -48,3 +48,5 @@ fs.readFile('././data/raw-setlist.json', (err, setlist) => {
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('././data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));    
 });
+
+module.exports = artist, tour, songs;
