@@ -1,36 +1,103 @@
 {
-   "id" : "63b2aa3f",
-   "versionId" : "g23f3bc6b",
-   "eventDate" : "15-07-2022",
-   "lastUpdated" : "2022-07-14T17:30:39.000+0000",
+   "id" : "3d69d57",
+   "versionId" : "b2ca5ea",
+   "eventDate" : "13-08-2003",
+   "lastUpdated" : "2020-10-27T22:14:09.000+0000",
    "artist" : {
-      "mbid" : "35dac7d2-0b1f-470f-9a5a-c53c8821f6d6",
-      "name" : "Eric Prydz",
-      "sortName" : "Prydz, Eric",
+      "mbid" : "b071f9fa-14b0-4217-8e97-eb41da73f598",
+      "name" : "The Rolling Stones",
+      "sortName" : "Rolling Stones, The",
       "disambiguation" : "",
-      "url" : "https://www.setlist.fm/setlists/eric-prydz-43d69b73.html"
+      "url" : "https://www.setlist.fm/setlists/the-rolling-stones-bd6ad22.html"
    },
    "venue" : {
-      "id" : "1bd6d97c",
-      "name" : "De Schorre",
+      "id" : "13d665a5",
+      "name" : "Feijenoord Stadion",
       "city" : {
-         "id" : "cu:ab304942-1abe-4c57-b96f-13c1265e0fbe",
-         "name" : "Boom",
-         "state" : "Antwerp",
-         "stateCode" : "BE.AN",
+         "id" : "2747891",
+         "name" : "Rotterdam",
+         "state" : "South Holland",
+         "stateCode" : "11",
          "coords" : {
-            "lat" : 51.083333,
-            "long" : 4.366667
+            "lat" : 51.9225,
+            "long" : 4.479167
          },
          "country" : {
-            "code" : "BE",
-            "name" : "Belgium"
+            "code" : "NL",
+            "name" : "Netherlands"
          }
       },
-      "url" : "https://www.setlist.fm/venue/de-schorre-boom-belgium-1bd6d97c.html"
+      "url" : "https://www.setlist.fm/venue/feijenoord-stadion-rotterdam-netherlands-13d665a5.html"
+   },
+   "tour" : {
+      "name" : "Licks World Tour"
    },
    "sets" : {
-      "set" : [ ]
+      "set" : [ {
+         "song" : [ {
+            "name" : "Brown Sugar"
+         }, {
+            "name" : "You Got Me Rocking"
+         }, {
+            "name" : "It's Only Rock 'n' Roll (but I Like It)"
+         }, {
+            "name" : "Don't Stop"
+         }, {
+            "name" : "Angie"
+         }, {
+            "name" : "You Can't Always Get What You Want"
+         }, {
+            "name" : "Midnight Rambler"
+         }, {
+            "name" : "Tumbling Dice"
+         }, {
+            "name" : "The Nearness of You",
+            "cover" : {
+               "mbid" : "87a93208-7517-4581-813c-6f0ecb0f5555",
+               "name" : "Chick Bullock and His Orchestra",
+               "sortName" : "Bullock, Chick and His Orchestra",
+               "disambiguation" : "",
+               "url" : "https://www.setlist.fm/setlists/chick-bullock-and-his-orchestra-4bdff78e.html"
+            },
+            "info" : "Keith Richards on lead vocals"
+         }, {
+            "name" : "Before They Make Me Run",
+            "info" : "Keith Richards on lead vocals"
+         }, {
+            "name" : "Sympathy for the Devil"
+         } ]
+      }, {
+         "name" : "B-Stage",
+         "song" : [ {
+            "name" : "Neighbours"
+         }, {
+            "name" : "Mannish Boy",
+            "cover" : {
+               "mbid" : "f86f1f07-d182-45ce-ae93-ef610880ca72",
+               "name" : "Muddy Waters",
+               "sortName" : "Muddy Waters",
+               "disambiguation" : "blues musician",
+               "url" : "https://www.setlist.fm/setlists/muddy-waters-3bd69810.html"
+            }
+         }, {
+            "name" : "Street Fighting Man"
+         } ]
+      }, {
+         "song" : [ {
+            "name" : "Gimme Shelter"
+         }, {
+            "name" : "Honky Tonk Women"
+         }, {
+            "name" : "Start Me Up"
+         }, {
+            "name" : "(I Can't Get No) Satisfaction"
+         } ]
+      }, {
+         "encore" : 1,
+         "song" : [ {
+            "name" : "Jumpin' Jack Flash"
+         } ]
+      } ]
    },
-   "url" : "https://www.setlist.fm/setlist/eric-prydz/2022/de-schorre-boom-belgium-63b2aa3f.html"
+   "url" : "https://www.setlist.fm/setlist/the-rolling-stones/2003/feijenoord-stadion-rotterdam-netherlands-3d69d57.html"
 }

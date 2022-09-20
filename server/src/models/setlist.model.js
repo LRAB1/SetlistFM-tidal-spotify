@@ -1,10 +1,11 @@
 const fs = require('fs');
 const { stringify } = require('querystring');
 
-fs.readFile('././data/raw-setlist.json', (err, setlist) => {
+fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
     const localsetlist = JSON.parse(setlist);
     console.log('Finished reading file.');
+    //testSetlist.push(localsetlist);
 
     //Artist name gets pulled in json format.
     const artist = localsetlist.artist.name
@@ -46,7 +47,7 @@ fs.readFile('././data/raw-setlist.json', (err, setlist) => {
                     songs.push(localsetlist.sets.set[3].song);
     }
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
-    fs.writeFileSync('././data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));    
+    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));    
 });
 
 module.exports = artist, tour, songs;

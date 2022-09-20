@@ -2,6 +2,7 @@
 //Seems like we'll need to run GET/Search request with filtering for artist and songs and adding tour from setlist controller.
 const fs = require('fs');
 
+var app = express();
 var unirest = require('unirest');
 const spotifyKey = require('../../../keys');
 
@@ -12,8 +13,6 @@ const iD = '';*/
 
 var client_id = 'CLIENT_ID';
 var redirect_uri = 'http://localhost:8888/callback';
-
-var app = express();
 
 app.get('/login', function(req, res) {
 
