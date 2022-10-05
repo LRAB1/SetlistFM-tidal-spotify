@@ -31,7 +31,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     const songs = [];
     if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
-    }/*    else if  ([amountSets] == 1 ) {
+    }    else if  ([amountSets] == 1 ) {
         console.log('No encore was performed');
         songs.push(localsetlist.sets.set[0].song);
     }       else if ([amountSets] == 2 ) {
@@ -49,7 +49,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
                    songs.push(localsetlist.sets.set[1].song);
                    songs.push(localsetlist.sets.set[2].song);
                    songs.push(localsetlist.sets.set[3].song);
-    } */
+    }
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
     //Create exportable object for communication towards streamingservice.
