@@ -1,6 +1,10 @@
 const fs = require('fs');
 const { stringify } = require('querystring');
 
+const extractedArtist = [];
+const extractedTour =   [];
+const extractedSongs =  [];
+
 fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
     const localsetlist = JSON.parse(setlist);
@@ -27,27 +31,29 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     const songs = [];
     if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
-    } else if  ([amountSets] == 1 ) {
+    }/*    else if  ([amountSets] == 1 ) {
         console.log('No encore was performed');
         songs.push(localsetlist.sets.set[0].song);
-    } else if ([amountSets] == 2 ) {
-        console.log('An encore was performed');
-        songs.push(localsetlist.sets.set[0].song);
-        songs.push(localsetlist.sets.set[1].song);
-        } else if ([amountSets] == 3) {
-            console.log('More than 2 sets?! SHEESH')
+    }       else if ([amountSets] == 2 ) {
+            console.log('An encore was performed');
             songs.push(localsetlist.sets.set[0].song);
             songs.push(localsetlist.sets.set[1].song);
-            songs.push(localsetlist.sets.set[2].song);
-                } else if ([amountSets] == 4 ) {
-                    console.log('More than 3 sets?! SHEESH')
-                    songs.push(localsetlist.sets.set[0].song);
-                    songs.push(localsetlist.sets.set[1].song);
-                    songs.push(localsetlist.sets.set[2].song);
-                    songs.push(localsetlist.sets.set[3].song);
-    }
+        }       else if ([amountSets] == 3) {
+                console.log('More than 2 sets?! Noice!')
+                songs.push(localsetlist.sets.set[0].song);
+                songs.push(localsetlist.sets.set[1].song);
+                songs.push(localsetlist.sets.set[2].song);
+                }  else if ([amountSets] == 4 ) {
+                   console.log('More than 3 sets?! SHEESH')
+                   songs.push(localsetlist.sets.set[0].song);
+                   songs.push(localsetlist.sets.set[1].song);
+                   songs.push(localsetlist.sets.set[2].song);
+                   songs.push(localsetlist.sets.set[3].song);
+    } */
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
-    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));    
+    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
+    //Create exportable object for communication towards streamingservice.
+    module.exports = artist, tour, songs; //ugly and doesnt work.
 });
 
-module.exports = artist, tour, songs;
+//module.exports = extractedArtist, extractedSongs, extractedTour; //commented out for testing reasons
