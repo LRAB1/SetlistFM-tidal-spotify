@@ -29,9 +29,11 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
 
     //Grabbing songs and names. Needs to be made be smarter, this works but is ugly.
     const songs = [];
-    if ([amountSets] == 0 ) {
+    if ([amountSets] !==0 ) { // do smart stuff here
+    } else console.log('Information not known to SetlistFm')
+    /*if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
-    }    else if  ([amountSets] == 1 ) {
+    }   else if  ([amountSets] == 1 ) {
         console.log('No encore was performed');
         songs.push(localsetlist.sets.set[0].song);
     }       else if ([amountSets] == 2 ) {
@@ -54,6 +56,6 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
     //Create exportable object for communication towards streamingservice.
     module.exports = artist, tour, songs; //ugly and doesnt work.
+}); */
 });
-
 //module.exports = extractedArtist, extractedSongs, extractedTour; //commented out for testing reasons
