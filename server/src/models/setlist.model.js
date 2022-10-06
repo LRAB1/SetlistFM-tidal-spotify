@@ -27,7 +27,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     amountSets.push(localsetlist.sets.set.length);
     console.log('amount of sets', amountSets);
 
-    //Grabbing songs and names.
+    //Grabbing songs and names. Needs to be made be smarter, this works but is ugly.
     const songs = [];
     if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
@@ -49,7 +49,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
                    songs.push(localsetlist.sets.set[1].song);
                    songs.push(localsetlist.sets.set[2].song);
                    songs.push(localsetlist.sets.set[3].song);
-    }
+    };
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
     //Create exportable object for communication towards streamingservice.
