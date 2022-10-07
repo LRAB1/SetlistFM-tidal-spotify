@@ -23,13 +23,11 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     amountSets.push(localsetlist.sets.set.length);
     console.log('amount of sets', amountSets);
 
-    //Grabbing songs and names. Needs to be made be smarter, this works but is ugly.
+    //Grabbing songs and names. Needs to be made be smarter.
     const songs = [];
-    if ([amountSets] !==0 ) { amountSets.forEach( element => amountSets.push(songs));
-        if ([songs] === 0 ) {console.log('Made an extracted setlist.txt')
-    }else console.log('songs is empty')
-        //amountSets.push(songs);
-    } else console.log('Information not known to SetlistFm')
+    if ([amountSets] !==0 ) {{ amountSets.forEach( element => amountSets.push(element));
+    }else if ([amountSets] === 0 ) console.log('Information not known to SetlistFm')};
+
 
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
