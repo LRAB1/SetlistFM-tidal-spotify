@@ -1,10 +1,6 @@
 const fs = require('fs');
 const { stringify } = require('querystring');
 
-const extractedArtist = [];
-const extractedTour =   [];
-const extractedSongs =  [];
-
 fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
     const localsetlist = JSON.parse(setlist);
@@ -29,8 +25,15 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
 
     //Grabbing songs and names. Needs to be made be smarter, this works but is ugly.
     const songs = [];
-    if ([amountSets] !==0 ) { amountSets.forEach(songBuilder)
+    if ([amountSets] !==0 ) { amountSets.forEach( element => amountSets.push(songs));
+        if ([songs] === 0 ) {console.log('Made an extracted setlist.txt')
+    }else console.log('songs is empty')
+        //amountSets.push(songs);
     } else console.log('Information not known to SetlistFm')
+
+    //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
+    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
+
     /*if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
     }   else if  ([amountSets] == 1 ) {
