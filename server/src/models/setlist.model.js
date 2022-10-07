@@ -29,7 +29,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
 
     //Grabbing songs and names. Needs to be made be smarter, this works but is ugly.
     const songs = [];
-    if ([amountSets] !==0 ) { console.log(`Sets seen in songs function ${amountSets.length}`)
+    if ([amountSets] !==0 ) { amountSets.forEach(console.log('meepmorp'))
     } else console.log('Information not known to SetlistFm')
     /*if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
