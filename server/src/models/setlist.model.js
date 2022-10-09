@@ -25,8 +25,10 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
 
     //Grabbing songs and names. Needs to be made be smarter.
     const songs = [];
-    if ([amountSets] !==0 ) {{ amountSets.forEach( element => amountSets.push(element));
-    }else if ([amountSets] === 0 ) console.log('Information not known to SetlistFm')};
+    if ([amountSets] !== 0 ) {
+        console.log([amountSets.entries]) //entries is an itterable. Can I work with this?
+        console.log('Songs in setlist');
+    }   else if ([amountSets] === 0) console.log('Information not known to setlistFM')
 
 
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
