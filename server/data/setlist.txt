@@ -1,109 +1,67 @@
-Enter Shikari
-Stop the Clocks Tour
+Devin Townsend
+Europe 2022
 [
-    [
-        {
-            "name": "The Spark",
-            "tape": true
-        },
-        {
-            "name": "The Sights"
-        },
-        {
-            "name": "Step Up"
-        },
-        {
-            "name": "Labyrinth"
-        },
-        {
-            "name": "Arguing With Thermometers"
-        },
-        {
-            "name": "Rabble Rouser"
-        },
-        {
-            "name": "Halcyon"
-        },
-        {
-            "name": "Hectic"
-        },
-        {
-            "name": "Gap in the Fence"
-        },
-        {
-            "name": "Shinrin-Yoku"
-        },
-        {
-            "name": "The Revolt of the Atoms"
-        },
-        {
-            "name": "Slipshod"
-        },
-        {
-            "name": "Gandhi Mate, Gandhi",
-            "info": "Shortened"
-        },
-        {
-            "name": "Mothership",
-            "info": "Shortened"
-        },
-        {
-            "name": "Insomnia",
-            "cover": {
-                "mbid": "23d9d74d-c95e-46a6-be26-a6075c49747a",
-                "name": "Faithless",
-                "sortName": "Faithless",
-                "disambiguation": "",
-                "url": "https://www.setlist.fm/setlists/faithless-2bd6b09e.html"
+    {
+        "song": [
+            {
+                "name": "Failure",
+                "cover": {
+                    "mbid": "b00cb756-0259-4a50-bbcb-ad22186c5518",
+                    "name": "Devin Townsend Project",
+                    "sortName": "Townsend, Devin, Project",
+                    "disambiguation": "",
+                    "url": "https://www.setlist.fm/setlists/devin-townsend-project-4bd48fde.html"
+                }
+            },
+            {
+                "name": "Kingdom"
+            },
+            {
+                "name": "By Your Command"
+            },
+            {
+                "name": "Aftermath",
+                "cover": {
+                    "mbid": "584b72a4-45f7-46ce-b440-e9ee579d71c4",
+                    "name": "Strapping Young Lad",
+                    "sortName": "Strapping Young Lad",
+                    "disambiguation": "",
+                    "url": "https://www.setlist.fm/setlists/strapping-young-lad-6bd6caee.html"
+                }
+            },
+            {
+                "name": "Regulator"
+            },
+            {
+                "name": "Deadhead",
+                "cover": {
+                    "mbid": "6e9d417e-7eb1-45dd-af0c-60ac85dfcd7a",
+                    "name": "The Devin Townsend Band",
+                    "sortName": "Townsend, Devin, Band, The",
+                    "disambiguation": "",
+                    "url": "https://www.setlist.fm/setlists/the-devin-townsend-band-6bd60aba.html"
+                }
+            },
+            {
+                "name": "Deep Peace"
+            },
+            {
+                "name": "March of the Poozers"
+            },
+            {
+                "name": "More!",
+                "cover": {
+                    "mbid": "b00cb756-0259-4a50-bbcb-ad22186c5518",
+                    "name": "Devin Townsend Project",
+                    "sortName": "Townsend, Devin, Project",
+                    "disambiguation": "",
+                    "url": "https://www.setlist.fm/setlists/devin-townsend-project-4bd48fde.html"
+                }
             }
-        },
-        {
-            "name": "Havoc B"
-        },
-        {
-            "name": "Airfield",
-            "info": "Rou Solo"
-        },
-        {
-            "name": "Undercover Agents"
-        },
-        {
-            "name": "No Sleep Tonight",
-            "info": "Rou Solo, Shortened"
-        },
-        {
-            "name": "Stop the Clocks"
-        }
-    ],
-    [
-        {
-            "name": "Sorry, You're Not a Winner"
-        },
-        {
-            "name": "The Last Garrison"
-        },
-        {
-            "name": "...Meltdown"
-        },
-        {
-            "name": "Anaesthetist",
-            "info": "Reso Remix"
-        }
-    ],
-    [
-        {
-            "name": "Take My Country Back",
-            "info": "Rou Solo"
-        },
-        {
-            "name": "Juggernauts"
-        },
-        {
-            "name": "Live Outside"
-        },
-        {
-            "name": "The Embers",
-            "tape": true
-        }
-    ]
+        ]
+    },
+    null,
+    null,
+    null,
+    null
 ]
