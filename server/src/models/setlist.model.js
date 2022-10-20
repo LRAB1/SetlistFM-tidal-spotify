@@ -9,7 +9,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     //Artist name gets pulled in json format.
     const artist = [];
     if (!localsetlist.artist.name) {
-        console.log('No artist found')
+        artist.push(localsetlist.artist.sortName);
     } else artist.push(localsetlist.artist.name);
     //console.log(artist);
 
