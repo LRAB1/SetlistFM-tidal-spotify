@@ -23,18 +23,8 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     amountSets.push(localsetlist.sets.set.length);
     console.log('amount of sets', amountSets);
 
-    //Grabbing songs and names. Needs to be made be smarter.
     const songs = [];
-    if ([amountSets] !== 0 ) {
-        console.log([amountSets.entries]) //entries is an itterable. Can I work with this?
-        console.log('Songs in setlist');
-    }   else if ([amountSets] === 0) console.log('Information not known to setlistFM')
-
-
-    //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
-    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
-
-    /*if ([amountSets] == 0 ) {
+    if ([amountSets] == 0 ) {
         console.log('Information not known to SetlistFM.');
     }   else if  ([amountSets] == 1 ) {
         console.log('No encore was performed');
@@ -57,8 +47,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     };
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
+    
     //Create exportable object for communication towards streamingservice.
-    module.exports = artist, tour, songs; //ugly and doesnt work.
-}); */
+        //module.exports = artist, tour, songs; //ugly and doesnt work.
 });
-//module.exports = extractedArtist, extractedSongs, extractedTour; //commented out for testing reasons
