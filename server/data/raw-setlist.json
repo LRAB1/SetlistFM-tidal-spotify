@@ -1,0 +1,118 @@
+{
+   "id" : "5393a7c5",
+   "versionId" : "732a7eb1",
+   "eventDate" : "28-03-2019",
+   "lastUpdated" : "2020-10-29T10:18:37.000+0000",
+   "artist" : {
+      "mbid" : "329f95db-f02e-40bf-a5f7-0dea11529ce3",
+      "name" : "Enter Shikari",
+      "sortName" : "Enter Shikari",
+      "disambiguation" : "",
+      "url" : "https://www.setlist.fm/setlists/enter-shikari-53d6d375.html"
+   },
+   "venue" : {
+      "id" : "3bd790b8",
+      "name" : "Poppodium 013",
+      "city" : {
+         "id" : "2746301",
+         "name" : "Tilburg",
+         "state" : "North Brabant",
+         "stateCode" : "06",
+         "coords" : {
+            "lat" : 51.555514883268,
+            "long" : 5.09130477905273
+         },
+         "country" : {
+            "code" : "NL",
+            "name" : "Netherlands"
+         }
+      },
+      "url" : "https://www.setlist.fm/venue/poppodium-013-tilburg-netherlands-3bd790b8.html"
+   },
+   "tour" : {
+      "name" : "Stop the Clocks Tour"
+   },
+   "sets" : {
+      "set" : [ {
+         "song" : [ {
+            "name" : "The Spark",
+            "tape" : true
+         }, {
+            "name" : "The Sights"
+         }, {
+            "name" : "Step Up"
+         }, {
+            "name" : "Labyrinth"
+         }, {
+            "name" : "Arguing With Thermometers"
+         }, {
+            "name" : "Rabble Rouser"
+         }, {
+            "name" : "Halcyon"
+         }, {
+            "name" : "Hectic"
+         }, {
+            "name" : "Gap in the Fence"
+         }, {
+            "name" : "Shinrin-Yoku"
+         }, {
+            "name" : "The Revolt of the Atoms"
+         }, {
+            "name" : "Slipshod"
+         }, {
+            "name" : "Gandhi Mate, Gandhi",
+            "info" : "Shortened"
+         }, {
+            "name" : "Mothership",
+            "info" : "Shortened"
+         }, {
+            "name" : "Insomnia",
+            "cover" : {
+               "mbid" : "23d9d74d-c95e-46a6-be26-a6075c49747a",
+               "name" : "Faithless",
+               "sortName" : "Faithless",
+               "disambiguation" : "",
+               "url" : "https://www.setlist.fm/setlists/faithless-2bd6b09e.html"
+            }
+         }, {
+            "name" : "Havoc B"
+         }, {
+            "name" : "Airfield",
+            "info" : "Rou Solo"
+         }, {
+            "name" : "Undercover Agents"
+         }, {
+            "name" : "No Sleep Tonight",
+            "info" : "Rou Solo, Shortened"
+         }, {
+            "name" : "Stop the Clocks"
+         } ]
+      }, {
+         "name" : "Quickfire Round",
+         "song" : [ {
+            "name" : "Sorry, You're Not a Winner"
+         }, {
+            "name" : "The Last Garrison"
+         }, {
+            "name" : "...Meltdown"
+         }, {
+            "name" : "Anaesthetist",
+            "info" : "Reso Remix"
+         } ]
+      }, {
+         "encore" : 1,
+         "song" : [ {
+            "name" : "Take My Country Back",
+            "info" : "Rou Solo"
+         }, {
+            "name" : "Juggernauts"
+         }, {
+            "name" : "Live Outside"
+         }, {
+            "name" : "The Embers",
+            "tape" : true
+         } ]
+      } ]
+   },
+   "url" : "https://www.setlist.fm/setlist/enter-shikari/2019/poppodium-013-tilburg-netherlands-5393a7c5.html"
+}
