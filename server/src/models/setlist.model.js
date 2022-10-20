@@ -21,7 +21,7 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     //Check how many set arrays exist and therefore if an encore was performed.
     const amountSets = [];
     amountSets.push(localsetlist.sets.set.length);
-    console.log('amount of sets', amountSets);
+    //console.log('amount of sets', amountSets);
 
     //Extracting songs and pushing to txt file, dumb but works.
     const songs = [];
