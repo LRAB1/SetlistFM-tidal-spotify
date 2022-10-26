@@ -26,8 +26,8 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     //Grabbing songs and names. Needs to be made be smarter.
     const songs = [];
     if ([amountSets] !== 0 ) {
-        console.log([amountSets.entries]) //entries is an itterable. Can I work with this?
-        console.log('Songs in setlist');
+        localsetlist.sets.set.entries(amountSets)
+        console.log([amountSets])
     }   else if ([amountSets] === 0) console.log('Information not known to setlistFM')
 
 
