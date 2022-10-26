@@ -1,118 +1,87 @@
 {
-   "id" : "5393a7c5",
-   "versionId" : "732a7eb1",
-   "eventDate" : "28-03-2019",
-   "lastUpdated" : "2020-10-29T10:18:37.000+0000",
+   "id" : "4bb7d3c2",
+   "versionId" : "g2bc87cd2",
+   "eventDate" : "13-05-2022",
+   "lastUpdated" : "2022-05-14T05:53:17.000+0000",
    "artist" : {
-      "mbid" : "329f95db-f02e-40bf-a5f7-0dea11529ce3",
-      "name" : "Enter Shikari",
-      "sortName" : "Enter Shikari",
+      "mbid" : "93e8c41e-8e4f-4d08-bbf5-bc1a903b2423",
+      "name" : "Devin Townsend",
+      "sortName" : "Townsend, Devin",
       "disambiguation" : "",
-      "url" : "https://www.setlist.fm/setlists/enter-shikari-53d6d375.html"
+      "url" : "https://www.setlist.fm/setlists/devin-townsend-33d6b0f5.html"
    },
    "venue" : {
-      "id" : "3bd790b8",
-      "name" : "Poppodium 013",
+      "id" : "23d574f7",
+      "name" : "AFAS Live",
       "city" : {
-         "id" : "2746301",
-         "name" : "Tilburg",
-         "state" : "North Brabant",
-         "stateCode" : "06",
+         "id" : "2759794",
+         "name" : "Amsterdam",
+         "state" : "North Holland",
+         "stateCode" : "07",
          "coords" : {
-            "lat" : 51.555514883268,
-            "long" : 5.09130477905273
+            "lat" : 52.373,
+            "long" : 4.9
          },
          "country" : {
             "code" : "NL",
             "name" : "Netherlands"
          }
       },
-      "url" : "https://www.setlist.fm/venue/poppodium-013-tilburg-netherlands-3bd790b8.html"
+      "url" : "https://www.setlist.fm/venue/afas-live-amsterdam-netherlands-23d574f7.html"
    },
    "tour" : {
-      "name" : "Stop the Clocks Tour"
+      "name" : "Europe 2022"
    },
    "sets" : {
       "set" : [ {
          "song" : [ {
-            "name" : "The Spark",
-            "tape" : true
-         }, {
-            "name" : "The Sights"
-         }, {
-            "name" : "Step Up"
-         }, {
-            "name" : "Labyrinth"
-         }, {
-            "name" : "Arguing With Thermometers"
-         }, {
-            "name" : "Rabble Rouser"
-         }, {
-            "name" : "Halcyon"
-         }, {
-            "name" : "Hectic"
-         }, {
-            "name" : "Gap in the Fence"
-         }, {
-            "name" : "Shinrin-Yoku"
-         }, {
-            "name" : "The Revolt of the Atoms"
-         }, {
-            "name" : "Slipshod"
-         }, {
-            "name" : "Gandhi Mate, Gandhi",
-            "info" : "Shortened"
-         }, {
-            "name" : "Mothership",
-            "info" : "Shortened"
-         }, {
-            "name" : "Insomnia",
+            "name" : "Failure",
             "cover" : {
-               "mbid" : "23d9d74d-c95e-46a6-be26-a6075c49747a",
-               "name" : "Faithless",
-               "sortName" : "Faithless",
+               "mbid" : "b00cb756-0259-4a50-bbcb-ad22186c5518",
+               "name" : "Devin Townsend Project",
+               "sortName" : "Townsend, Devin, Project",
                "disambiguation" : "",
-               "url" : "https://www.setlist.fm/setlists/faithless-2bd6b09e.html"
+               "url" : "https://www.setlist.fm/setlists/devin-townsend-project-4bd48fde.html"
             }
          }, {
-            "name" : "Havoc B"
+            "name" : "Kingdom"
          }, {
-            "name" : "Airfield",
-            "info" : "Rou Solo"
+            "name" : "By Your Command"
          }, {
-            "name" : "Undercover Agents"
+            "name" : "Aftermath",
+            "cover" : {
+               "mbid" : "584b72a4-45f7-46ce-b440-e9ee579d71c4",
+               "name" : "Strapping Young Lad",
+               "sortName" : "Strapping Young Lad",
+               "disambiguation" : "",
+               "url" : "https://www.setlist.fm/setlists/strapping-young-lad-6bd6caee.html"
+            }
          }, {
-            "name" : "No Sleep Tonight",
-            "info" : "Rou Solo, Shortened"
+            "name" : "Regulator"
          }, {
-            "name" : "Stop the Clocks"
-         } ]
-      }, {
-         "name" : "Quickfire Round",
-         "song" : [ {
-            "name" : "Sorry, You're Not a Winner"
+            "name" : "Deadhead",
+            "cover" : {
+               "mbid" : "6e9d417e-7eb1-45dd-af0c-60ac85dfcd7a",
+               "name" : "The Devin Townsend Band",
+               "sortName" : "Townsend, Devin, Band, The",
+               "disambiguation" : "",
+               "url" : "https://www.setlist.fm/setlists/the-devin-townsend-band-6bd60aba.html"
+            }
          }, {
-            "name" : "The Last Garrison"
+            "name" : "Deep Peace"
          }, {
-            "name" : "...Meltdown"
+            "name" : "March of the Poozers"
          }, {
-            "name" : "Anaesthetist",
-            "info" : "Reso Remix"
-         } ]
-      }, {
-         "encore" : 1,
-         "song" : [ {
-            "name" : "Take My Country Back",
-            "info" : "Rou Solo"
-         }, {
-            "name" : "Juggernauts"
-         }, {
-            "name" : "Live Outside"
-         }, {
-            "name" : "The Embers",
-            "tape" : true
+            "name" : "More!",
+            "cover" : {
+               "mbid" : "b00cb756-0259-4a50-bbcb-ad22186c5518",
+               "name" : "Devin Townsend Project",
+               "sortName" : "Townsend, Devin, Project",
+               "disambiguation" : "",
+               "url" : "https://www.setlist.fm/setlists/devin-townsend-project-4bd48fde.html"
+            }
          } ]
       } ]
    },
-   "url" : "https://www.setlist.fm/setlist/enter-shikari/2019/poppodium-013-tilburg-netherlands-5393a7c5.html"
+   "url" : "https://www.setlist.fm/setlist/devin-townsend/2022/afas-live-amsterdam-netherlands-4bb7d3c2.html"
 }

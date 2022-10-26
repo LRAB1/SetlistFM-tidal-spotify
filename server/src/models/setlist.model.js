@@ -5,10 +5,12 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
     const localsetlist = JSON.parse(setlist);
     console.log('Finished reading file.');
-    //testSetlist.push(localsetlist);
 
     //Artist name gets pulled in json format.
-    const artist = localsetlist.artist.name
+    const artist = [];
+    if (!localsetlist.artist.name) {
+        console.log('No artist found')
+    } else artist.push(localsetlist.artist.name);
     //console.log(artist);
 
     //Grabbing tour name for playlist naming.
@@ -18,47 +20,24 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     } else tour.push(localsetlist.tour.name)
     //console.log(tour);
 
-    //Check how many set arrays exist and therefore if an encore was performed.
+    //Check how many set arrays exist, used as indicator for songs function
     const amountSets = [];
-    amountSets.push(localsetlist.sets.set.length);
-    console.log('amount of sets', amountSets);
+    if (localsetlist.sets.set.length === 0 ) {
+        console.log('No sets found')
+        //perhaps jump the songs routine?
+    } else amountSets.push(localsetlist.sets.set.length);
+    //console.log('amount of sets', amountSets);
 
-    //Grabbing songs and names. Needs to be made be smarter.
+    //Extracting songs and pushing to txt file, dumb but works.
     const songs = [];
-    if ([amountSets] !== 0 ) {
-        localsetlist.sets.set.entries(amountSets)
-        console.log([amountSets])
-    }   else if ([amountSets] === 0) console.log('Information not known to setlistFM')
-
+    if (amountSets !==0 ) {
+            songs.push(localsetlist.sets.set[0]);
+            songs.push(localsetlist.sets.set[1]);
+            songs.push(localsetlist.sets.set[2]);
+            songs.push(localsetlist.sets.set[3]);
+            songs.push(localsetlist.sets.set[4]);
+    }   else console.log('Data not known to SetlistFm');
 
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
     fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
-
-    /*if ([amountSets] == 0 ) {
-        console.log('Information not known to SetlistFM.');
-    }   else if  ([amountSets] == 1 ) {
-        console.log('No encore was performed');
-        songs.push(localsetlist.sets.set[0].song);
-    }       else if ([amountSets] == 2 ) {
-            console.log('An encore was performed');
-            songs.push(localsetlist.sets.set[0].song);
-            songs.push(localsetlist.sets.set[1].song);
-        }       else if ([amountSets] == 3) {
-                console.log('More than 2 sets?! Noice!')
-                songs.push(localsetlist.sets.set[0].song);
-                songs.push(localsetlist.sets.set[1].song);
-                songs.push(localsetlist.sets.set[2].song);
-                }  else if ([amountSets] == 4 ) {
-                   console.log('More than 3 sets?! SHEESH')
-                   songs.push(localsetlist.sets.set[0].song);
-                   songs.push(localsetlist.sets.set[1].song);
-                   songs.push(localsetlist.sets.set[2].song);
-                   songs.push(localsetlist.sets.set[3].song);
-    };
-    //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
-    fs.writeFileSync('../../data/setlist.txt', artist + "\r\n" +  tour + "\r\n" + JSON.stringify(songs,null, 4));
-    //Create exportable object for communication towards streamingservice.
-    module.exports = artist, tour, songs; //ugly and doesnt work.
-}); */
 });
-//module.exports = extractedArtist, extractedSongs, extractedTour; //commented out for testing reasons

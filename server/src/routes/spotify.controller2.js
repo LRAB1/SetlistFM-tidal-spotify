@@ -1,8 +1,6 @@
-//import not ready yet, returns undefined.
+const fs = require('fs');
 
-const { artist,
-        tour,
-        songs,
-} = require('../models/setlist.model');
+//Import artist, tour and songs from txt file.
+fs.createReadStream('../../data/setlist.')
 
 console.log(`Artist: ${artist} Tour: ${tour} Songs: ${songs}`);
