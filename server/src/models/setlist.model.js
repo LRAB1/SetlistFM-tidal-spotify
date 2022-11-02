@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { stringify } = require('querystring');
+const { isArray } = require('util');
 
 fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
     if (err) throw err;
@@ -30,12 +31,12 @@ fs.readFile('../../data/raw-setlist.json', (err, setlist) => {
 
     //Extracting songs and pushing to txt file, dumb but works.
     const songs = [];
-    if (amountSets !==0 ) {
-            songs.push(localsetlist.sets.set[0]);
-            songs.push(localsetlist.sets.set[1]);
-            songs.push(localsetlist.sets.set[2]);
-            songs.push(localsetlist.sets.set[3]);
-            songs.push(localsetlist.sets.set[4]);
+     if (amountSets !==0 ) {
+        songs.push(localsetlist.sets.set[0]);
+        songs.push(localsetlist.sets.set[1]);
+        songs.push(localsetlist.sets.set[2]);
+        songs.push(localsetlist.sets.set[3]);
+        songs.push(localsetlist.sets.set[4]);
     }   else console.log('Data not known to SetlistFm');
 
     //Create setlist.txt, containing artist, tourname and songlist(json unfortunately).
