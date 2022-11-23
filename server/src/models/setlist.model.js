@@ -1,3 +1,6 @@
+//Does this need to create a local file? Perhaps it is smarter to already get this data while making the request and collecting song names etc without this file.
+
+
 const fs = require('fs');
 const { stringify } = require('querystring');
 const { isArray } = require('util');
