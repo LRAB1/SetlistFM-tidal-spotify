@@ -6,11 +6,6 @@ var app = express();
 var unirest = require('unirest');
 const spotifyKey = require('../../../keys');
 
-//const urlWithId = "https://api.setlist.fm/rest/1.0/setlist/4bb7d3c2"; //Aurora set 3bb0fc9c //Stones set met 4 entries 3d69d57
-/*const URL_SPOT = "https://api.spotify.com/";
-const 
-const iD = '';*/
-
 var client_id = 'CLIENT_ID';
 var redirect_uri = 'http://localhost:8888/callback';
 
